@@ -12,23 +12,23 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &name "Junteng Liu"
-description              : &description "Junteng Liu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://Toolathlon-beta.github.io/LJT-Homepage # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "Junteng Liu's academic homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://nextatlas20.github.io/LJT-Homepage # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Toolathlon-beta/LJT-Homepage"
+repository               : "nextatlas20/LJT-Homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://github.com/Vicent0205.png"
   name             : "Junteng Liu"
   pronouns         : # example: "she/her"  
-  bio              : "First-year PhD candidate at HKUST NLP Group"
-  location         : "Hong Kong"
-  employer         : "Hong Kong University of Science and Technology"
+  bio              : "First-year PhD candidate at the HKUST NLP Group. Research interests include LLM Reasoning and Reinforcement Learning, Hallucination in Vision-Language Models (VLM), and LLM truthfulness and Interpretability."
+  location         : # location
+  employer         : "HKUST NLP Group"
   uri              : # URL
   email            : "jliugi@connect.ust.hk" 
 
@@ -38,10 +38,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # "https://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : # "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -84,12 +84,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'arXiv Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -138,7 +136,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter junteng88716710
+  username               : "junteng88716710"
 facebook:
   username               :
   app_id                 :
@@ -148,9 +146,12 @@ og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Junteng Liu"
+  links:
+    - https://github.com/Vicent0205
+    - https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
+    - https://twitter.com/junteng88716710
 
 
 # Analytics
